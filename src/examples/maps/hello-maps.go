@@ -2,6 +2,10 @@ package main
 
 /**
  * The program illustrates how maps can be declared in Go.
+ * Maps are:
+ * 1. Passed to functions by reference similar to java
+ * 2. Unsafe for concurrency
+ * 3. Good practice to specify the size of the map
  *
  * @author Gaurav Gaur
  *
